@@ -1,6 +1,6 @@
 {
   "name": "bar",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "",
   "homepage": "",
@@ -19,7 +19,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies" : { 
-	"foo" : "*"
+  "dependencies": {
+    "foo": "^0.0.1"
   }
 }
