@@ -1,0 +1,33 @@
+{
+  "name": "@ichtestemalwieder/common",
+  "version": "0.0.4",
+  "description": "> TODO: description",
+  "author": "FIRST_NAME LAST_NAME <MY_NAME@example.com>",
+  "homepage": "https://github.com/ichtestemalwieder/lerna#readme",
+  "license": "ISC",
+  "main": "lib/common.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichtestemalwieder/lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ichtestemalwieder/lerna/issues"
+  },
+  "dependencies": {
+    "react-dom": "16.6.3",
+    "supi": "^0.0.4"
+  }
+}
