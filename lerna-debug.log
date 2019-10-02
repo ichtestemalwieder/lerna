@@ -1,27 +1,12 @@
 0 silly argv {
-0 silly argv   _: [ 'version' ],
+0 silly argv   _: [ 'run' ],
+0 silly argv   scope: 'bar',
 0 silly argv   lernaVersion: '3.16.4',
-0 silly argv   '$0': 'C:\\Users\\Thomas\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv   '$0': 'C:\\Users\\Thomas\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js',
+0 silly argv   script: 'start'
 0 silly argv }
 1 notice cli v3.16.4
 2 verbose rootPath C:\devtmp\workspaces\lernaone
-3 info current version 0.0.0
-4 silly isAnythingCommitted
-5 verbose isAnythingCommitted 1
-6 silly currentBranch
-7 verbose currentBranch master
-8 silly remoteBranchExists
-9 silly isBehindUpstream
-10 error Error: Command failed: git remote update
-10 error remote: Repository not found.
-10 error fatal: repository 'https://github.com/ichtestemalwieder/lerna.git/' not found
-10 error error: Could not fetch origin
-10 error
-10 error Fetching origin
-10 error
-10 error     at makeError (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
-10 error     at Function.module.exports.sync (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:338:15)
-10 error     at Object.execSync (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\child-process\index.js:26:16)
-10 error     at updateRemote (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:26:16)
-10 error     at isBehindUpstream (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:11:3)
-10 error     at VersionCommand.initialize (C:\Users\Thomas\AppData\Roaming\npm\node_modules\lerna\node_modules\@lerna\version\index.js:149:9)
+3 error JSONError: Unexpected string in JSON at position 401 while parsing '{  "name": "bar",  "version": "0.0.3",' in packages\bar\package.json
+3 error     at module.exports (C:\devtmp\workspaces\lernaone\node_modules\parse-json\index.js:26:19)
+3 error     at parse (C:\devtmp\workspaces\lernaone\node_modules\load-json-file\index.js:15:9)

@@ -17,9 +17,12 @@
     "registry": "https://registry.npmjs.com/"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+	"start": "node lib/bar.js"
   },
   "dependencies": {
-    "foo": "^0.0.3"
+    "@ichtestemalwieder/common": "^0.0.3",
+    "foo": "^0.0.3",
+    "react-dom": "16.6.3"
   }
 }
